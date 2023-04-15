@@ -11,3 +11,7 @@ dependencies:
   - pyarrow=2.0
   - pip:
       - wandb==0.10.31
+      - numpy==1.23.4 #to fix the np.object error
+      - grpcio-status==1.33.2
+      - protobuf==3.19.6  #fixes proto package issues
+      - Flask==2.1.0 #issues with pandas-profiling module
